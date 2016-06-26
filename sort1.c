@@ -1,5 +1,6 @@
 #include "sort1.h";
 
+//bubbleSort
 void sort1(int *a, int n){
     int i, t, s = 1;
     while (s) {
