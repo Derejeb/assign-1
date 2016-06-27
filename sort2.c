@@ -1,4 +1,4 @@
-#include "sort2.h";
+#include "sort2.h"
 
 //genome sort 
 void sort2(int *a, int n)

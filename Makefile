@@ -8,7 +8,7 @@ CFLAGS=-I.
 #linker rule
 testSort: main.o insertionSort.o sort1.o sort2.o
 #	gcc -o testSort main.o insertionSort.o
-	$(LD) -o testSort main.o insertSort.o
+	$(LD) -o testSort main.o insertionSort.o
 	
 #	gcc -o testSort main.o sort1.o
 	$(LD) -o testSort main.o sort1.o
@@ -22,9 +22,11 @@ main.o: main.c
 	$(CC) -c $(CFLAGS) main.c	
 	 
 insertionSort.o: insertionSort.c
-	$(CC) -c $(CFLAGS) main.c	
+	$(CC) -c $(CFLAGS) insertionSort.c	
+	
 sort1.o: sort1.c
 	$(CC) -c $(CFLAGS) sort1.c	
+	
 sort2.o: sort2.c
 	$(CC) -c $(CFLAGS) sort2.c	
 

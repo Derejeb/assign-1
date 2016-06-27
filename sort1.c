@@ -1,4 +1,4 @@
-#include "sort1.h";
+#include "sort1.h"
 
 //bubbleSort
 void sort1(int *a, int n){
