@@ -1,1 +1,1 @@
-void gnome_sort(int *a, int n);
+void sort2(int *a, int n);

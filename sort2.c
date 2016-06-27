@@ -1,7 +1,7 @@
 #include "sort2.h";
 
 //genome sort 
-void gnome_sort(int *a, int n)
+void sort2(int *a, int n)
 {
   int i=1, j=2, t;
 # define swap(i, j) { t = a[i]; a[i] = a[j]; a[j] = t; } 
