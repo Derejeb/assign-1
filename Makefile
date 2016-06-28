@@ -10,12 +10,6 @@ testSort: main.o insertionSort.o sort1.o sort2.o
 #	gcc -o testSort main.o insertionSort.o
 	$(LD) -o testSort main.o insertionSort.o sort1.o sort2.o
 	
-#	gcc -o testSort main.o sort1.o
-	#$(LD) -o testSort main.o sort1.o
-	
-#	gcc -o testSort main.o sort2.o
-	#$(LD) -o testSort main.o sort2.o
-	
 #compiler rules
 main.o: main.c
 #gcc -c -I. main.c
